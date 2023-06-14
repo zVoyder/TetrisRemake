@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33284cb100bb19141bec196beb736488, type: 3}
+  m_Name: Ronin
+  m_EditorClassIdentifier: 
+  UnitName: Ronin
+  HitPoints: 55
+  Skills:
+  - {fileID: 11400000, guid: 7619657e54c134748b24e61de0f543e4, type: 2}
+  - {fileID: 11400000, guid: 122ad7d5ea32d104f892119d1f5e2003, type: 2}
+  GetHitClip: {fileID: 0}
+  AnimatorOverrideControllerGetHit: {fileID: 22100000, guid: 541b3cb8135b0574eb145d62b840e9de,
+    type: 2}
+  UnitSprite: {fileID: -34988258, guid: 8589ea947b666174ba6db6e7e38ba586, type: 3}
+  UnitPortraitSprite: {fileID: 21300000, guid: 5006d2a1d6c893347961ca6f25cb9729, type: 3}

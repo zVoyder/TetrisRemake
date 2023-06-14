@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1afc4db8e4d5ad45b2e45fa15ad5ec2, type: 3}
+  m_Name: Deep-One
+  m_EditorClassIdentifier: 
+  UnitName: Deep One
+  HitPoints: 42
+  Skills:
+  - {fileID: 11400000, guid: 16247034eb32ec44f89e8d500459848a, type: 2}
+  - {fileID: 11400000, guid: 99d90e5264daf9c418de758d70abbf48, type: 2}
+  GetHitClip: {fileID: 0}
+  AnimatorOverrideControllerGetHit: {fileID: 22100000, guid: e92a79137269f2b4f99eb018f397e08c,
+    type: 2}
+  UnitSprite: {fileID: -1511524869, guid: d25e8c0ad25c048d5b81fadfb5546b5b, type: 3}

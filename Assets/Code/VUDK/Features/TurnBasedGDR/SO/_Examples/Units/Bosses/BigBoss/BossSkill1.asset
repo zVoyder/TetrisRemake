@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf7f2dcea6d3a96409ff2416afb76fc2, type: 3}
+  m_Name: BossSkill1
+  m_EditorClassIdentifier: 
+  Power:
+    <Max>k__BackingField: 40
+    <Min>k__BackingField: 10
+  CriticalChance: 20
+  SkillAnimatorOverrideController: {fileID: 22100000, guid: 3014fa90c10c2634ba40f751bb852c6b,
+    type: 2}
+  AttackClip: {fileID: 8300000, guid: ec1fc1afdc427d249b50a91ad41c9072, type: 3}
+  SkillStatusEffects: []
+  SkillType: 0
+  SkillTarget: 2
+  IsAreaOfEffect: 0

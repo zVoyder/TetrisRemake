@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741121cbb0569e44917b69dead105ac, type: 3}
+  m_Name: CardDeathScream
+  m_EditorClassIdentifier: 
+  Power:
+    <Max>k__BackingField: 10
+    <Min>k__BackingField: 5
+  CriticalChance: 21
+  SkillAnimatorOverrideController: {fileID: 22100000, guid: 9cb34067146cb0740a07cf9d0c3628be,
+    type: 2}
+  AttackClip: {fileID: 8300000, guid: ec1fc1afdc427d249b50a91ad41c9072, type: 3}
+  SkillStatusEffects:
+  - {fileID: 11400000, guid: 3e0f2e041df85c84085c47379bc8e89e, type: 2}
+  - {fileID: 11400000, guid: 84da441f0f50cd0469cdb34a5235f330, type: 2}
+  SkillType: 0
+  SkillTarget: 4294967295
+  IsAreaOfEffect: 1
+  RechargeTime: 2
+  CardFrameSprite: {fileID: 21300000, guid: d610aac079692d040a35323f521364fb, type: 3}
+  SkillSprite: {fileID: 21300000, guid: 99e90201f01a55b4da6ce548a7d7bb34, type: 3}
+  CardName: Scream
+  Description: ScreamScreamScreamScreamScreamScream

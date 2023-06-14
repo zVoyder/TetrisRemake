@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1afc4db8e4d5ad45b2e45fa15ad5ec2, type: 3}
+  m_Name: Mi-Go
+  m_EditorClassIdentifier: 
+  UnitName: Mi-Go
+  HitPoints: 28
+  Skills:
+  - {fileID: 11400000, guid: 9912bad21ea615240b4facdd8f8b4db7, type: 2}
+  - {fileID: 11400000, guid: d874b8e6b37cca647ae3365246800c26, type: 2}
+  GetHitClip: {fileID: 0}
+  AnimatorOverrideControllerGetHit: {fileID: 22100000, guid: e520d5c6621f86a4bb17aeb7fd33d1b8,
+    type: 2}
+  UnitSprite: {fileID: -1901228884, guid: 83717769500a2334aa6871a8990a1a82, type: 3}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33284cb100bb19141bec196beb736488, type: 3}
+  m_Name: Shinobi
+  m_EditorClassIdentifier: 
+  UnitName: Shinobi
+  HitPoints: 30
+  Skills:
+  - {fileID: 11400000, guid: 72484b7ee1b84c14383f6378bd6b5f9d, type: 2}
+  - {fileID: 11400000, guid: 59895da76a6d96f489a049484532da28, type: 2}
+  GetHitClip: {fileID: 0}
+  AnimatorOverrideControllerGetHit: {fileID: 22100000, guid: d436ea0f358795b4ca7cec54ff6f5c44,
+    type: 2}
+  UnitSprite: {fileID: 21300000, guid: 3092d4e25a2ea8a4d88479da9463ae6a, type: 3}
+  UnitPortraitSprite: {fileID: 21300000, guid: bd3096f8f667e95498ccd8d8619aa4fd, type: 3}

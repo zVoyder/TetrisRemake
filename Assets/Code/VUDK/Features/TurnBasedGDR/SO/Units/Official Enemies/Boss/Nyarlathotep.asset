@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2a59eef307e7d34792ea63686d76fb8, type: 3}
+  m_Name: Nyarlathotep
+  m_EditorClassIdentifier: 
+  UnitName: Nyarlathotep
+  HitPoints: 100
+  Skills:
+  - {fileID: 11400000, guid: 3ef5c40c050a5724cbbb25e30330ebff, type: 2}
+  - {fileID: 11400000, guid: e602675564f704e4b99bb0a372904b1f, type: 2}
+  GetHitClip: {fileID: 0}
+  AnimatorOverrideControllerGetHit: {fileID: 22100000, guid: e5ca0e38ea7ddea4abfc0b5400394f14,
+    type: 2}
+  UnitSprite: {fileID: -777110677, guid: 2c9d483a118458d4a9313271dc15dd83, type: 3}
+  Phases:
+  - {fileID: 11400000, guid: b821d5969b8e7044883adcfa3d9f0c9e, type: 2}

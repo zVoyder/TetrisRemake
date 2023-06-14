@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741121cbb0569e44917b69dead105ac, type: 3}
+  m_Name: Suiton
+  m_EditorClassIdentifier: 
+  Power:
+    <Max>k__BackingField: 6
+    <Min>k__BackingField: 3
+  CriticalChance: 0
+  SkillAnimatorOverrideController: {fileID: 22100000, guid: 443e9449d473fea42ab5d603a91349cb,
+    type: 2}
+  AttackClip: {fileID: 8300000, guid: 58786639914f9904887918a22e0ea0b6, type: 3}
+  SkillStatusEffects:
+  - {fileID: 11400000, guid: edff429fabd98b84f80598c4f0f2af84, type: 2}
+  SkillType: 0
+  SkillTarget: 2
+  IsAreaOfEffect: 1
+  RechargeTime: 4
+  CardFrameSprite: {fileID: 21300000, guid: 2b51b1bee2923e04c9f0eb15b48f073d, type: 3}
+  SkillSprite: {fileID: 21300000, guid: 56f815d3d46161c4fa61b79910b0f437, type: 3}
+  CardName: Suiton
+  Description: Deal damage to the whole enemy party and apply Damage Down for 2 turns.

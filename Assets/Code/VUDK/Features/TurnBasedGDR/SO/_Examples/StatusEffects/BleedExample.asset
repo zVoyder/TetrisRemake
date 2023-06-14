@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 491e4ea9b5c70b94aa6bd5f850c5b5f8, type: 3}
+  m_Name: BleedExample
+  m_EditorClassIdentifier: 
+  EffectIcon: {fileID: 21300000, guid: 452740b3a1965e04e889411dc21026b9, type: 3}
+  AppliedTurns: 4

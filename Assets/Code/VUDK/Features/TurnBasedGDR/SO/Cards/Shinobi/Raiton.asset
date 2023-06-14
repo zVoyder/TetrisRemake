@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741121cbb0569e44917b69dead105ac, type: 3}
+  m_Name: Raiton
+  m_EditorClassIdentifier: 
+  Power:
+    <Max>k__BackingField: 18
+    <Min>k__BackingField: 12
+  CriticalChance: 10
+  SkillAnimatorOverrideController: {fileID: 22100000, guid: 857ba4bb8f05e78408acf49d61c1bbff,
+    type: 2}
+  AttackClip: {fileID: 8300000, guid: fad25bf6a26701b4e895a285c67fad80, type: 3}
+  SkillStatusEffects:
+  - {fileID: 11400000, guid: fd1439850592792428ac0e05e411f350, type: 2}
+  SkillType: 0
+  SkillTarget: 2
+  IsAreaOfEffect: 0
+  RechargeTime: 3
+  CardFrameSprite: {fileID: 21300000, guid: 2b51b1bee2923e04c9f0eb15b48f073d, type: 3}
+  SkillSprite: {fileID: 21300000, guid: 5874e31644a9bac4895eefefa9487b28, type: 3}
+  CardName: Raiton
+  Description: Deal High damage to a single target and stun them.

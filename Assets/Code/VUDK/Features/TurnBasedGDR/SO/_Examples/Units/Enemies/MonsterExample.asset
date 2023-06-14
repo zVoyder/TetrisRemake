@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1afc4db8e4d5ad45b2e45fa15ad5ec2, type: 3}
+  m_Name: MonsterExample
+  m_EditorClassIdentifier: 
+  UnitSprite: {fileID: 21300000, guid: 748ae8b33df036b46a86e0387f1602cf, type: 3}
+  UnitName: Mon
+  HitPoints: 10
+  Skills:
+  - {fileID: 11400000, guid: 9df9d60809ab13b4783cf02494f4e6f8, type: 2}
+  - {fileID: 11400000, guid: 9318bce9bff984a4890435949aa19e98, type: 2}
+  - {fileID: 11400000, guid: 81fae59fab1b5994d8043e0ecb06ca2f, type: 2}
+  - {fileID: 11400000, guid: b3a09ba8b4bfdf4418b66e2cf57ff6a1, type: 2}
+  GetHitClip: {fileID: 8300000, guid: f22889312c469c5458ac836283449132, type: 3}
+  AnimatorOverrideControllerGetHit: {fileID: 22100000, guid: 762fcff0e0c2a4a45bdab2dbfe70644f,
+    type: 2}

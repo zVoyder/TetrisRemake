@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33284cb100bb19141bec196beb736488, type: 3}
+  m_Name: Miko
+  m_EditorClassIdentifier: 
+  UnitName: Miko
+  HitPoints: 35
+  Skills:
+  - {fileID: 11400000, guid: 64a86980f210bbb458ca5645421ec9b8, type: 2}
+  - {fileID: 11400000, guid: 30e215697e906fb4780aca4d41bff6f1, type: 2}
+  GetHitClip: {fileID: 0}
+  AnimatorOverrideControllerGetHit: {fileID: 22100000, guid: 762fcff0e0c2a4a45bdab2dbfe70644f,
+    type: 2}
+  UnitSprite: {fileID: 971408402, guid: 395d8a4b842c9c34fafe195eb5bbcbed, type: 3}
+  UnitPortraitSprite: {fileID: 21300000, guid: e4fbc98006d30094c94ccaa499fc3ce3, type: 3}
