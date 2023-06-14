@@ -27,7 +27,7 @@ namespace TetrisRemake.Managers
                 return null;
             }
 
-            List<string> keyList = Pools.Dict.Keys.ToList<string>();
+            List<string> keyList = Pools.Dict.Keys.ToList();
             int randomIndex = new System.Random().Next(0, keyList.Count);
             string randomKey = keyList[randomIndex];
 
